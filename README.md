@@ -39,6 +39,8 @@ docs/                        Architecture, contract, and execution workstreams.
 docs/issues/                 Issue bodies for swarm workstream execution.
 ```
 
+GitHub repository: `OminiX-ai/Ominix_Router`
+
 ## Current Contract
 
 The first implementation target is an embeddable Rust core crate with no network dependency. Network transports, API integration, and runtime clients are deliberately separate workstreams so they can be assigned independently.
@@ -50,4 +52,3 @@ The 8x5090 CUDA server should be used as the active validation target for DeepSe
 ```bash
 cargo test
 ```
-
